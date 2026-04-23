@@ -13,6 +13,13 @@
 
 导入后，在业务项目里说 **「初始化 wiki / 按团队 wiki 脚手架」**，Agent 会按 **`project-wiki-bootstrap`** 创建文档；日常协作由 **`wiki-memory`** 驱动读写 **`wiki/`**。
 
+### 新开项目怕忘？复制到第一次对话
+
+以下**任一句**会触发 Wiki 骨架（根目录尚无 `wiki/index.md` 时）；**同一段话也写在 `constitution.mdc` 里**，导入后每次对话 Agent 都能看到。
+
+1. `按团队规则初始化 wiki 骨架`
+2. `还没有 wiki，请建标准骨架`
+
 ## 在 Cursor 里使用
 
 1. **Cursor Settings** → **Rules** → 当前项目 → **New rule** → **Import from GitHub / GitLab**  
