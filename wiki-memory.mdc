@@ -1,0 +1,12 @@
+---
+description: 记忆唤醒：偏好与项目结论在 wiki/；架构或「按我习惯」类任务先读索引再动手；用户要求落盘时增量写入 preferences、specifications 或 pitfalls
+alwaysApply: true
+---
+
+## Wiki 记忆
+
+持久型偏好、**项目规范**、**避坑要点**记录在 **`wiki/`**。处理 **架构级改动、规范争议、验收习惯**，或用户表达 **「按我偏好 / 以后都 / 写进 wiki」** 时：
+
+1. 先阅读 **`@wiki/index.md`**（若不存在则先走「新项目 Wiki 骨架」规则创建后再读），再按需打开 `wiki/preferences.md`、`wiki/specifications.md`、`wiki/pitfalls.md`。  
+2. 用户明确要求把某结论**写入 wiki** 时：**增量追加**到上述三者之一（带日期或上下文），必要时在 `wiki/index.md` 补一句索引；**不要**无说明地整文件覆盖。  
+3. 与 **`doc/核心四原则.md`**（若存在）冲突时，**先问用户**以哪侧为准。

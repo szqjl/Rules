@@ -1,0 +1,33 @@
+---
+description: 新项目或仓库根尚无 wiki/index.md：用户说初始化/脚手架/建 wiki、或准备开始主要开发且同意补全时，创建 wiki 四文件 + 可选 doc/核心四原则.md 骨架；不覆盖已有文件
+alwaysApply: false
+---
+
+## 触发与约束
+
+- **触发**：项目根下**没有** `wiki/index.md`，且用户**明确同意**建立 Wiki 骨架（或主动要求「按团队 wiki 模板初始化」）。  
+- **禁止**：已存在同名文件时**不要覆盖**；仅创建缺失项。
+
+## 须创建的最小文件
+
+### `wiki/index.md`
+
+含：本目录用途一句；表格三行（preferences / specifications / pitfalls）；「约定入口」小节列出 `README.md`、`DEPLOY.md`（若存在）、`.env.example`（若存在）；一句使用说明（新会话先读索引）。
+
+### `wiki/preferences.md`
+
+含：标题「用户偏好（可追加）」+ 一句「增量追加、勿整文件覆盖」。
+
+### `wiki/specifications.md`
+
+含：标题「项目规范（可追加）」+ 一句说明记录接口/目录/命名等。
+
+### `wiki/pitfalls.md`
+
+含：标题「避坑指南（可追加）」+ 一句说明一条一事。
+
+### 可选 `doc/核心四原则.md`
+
+若不存在且用户需要协作总则：写 5～10 行，说明「全文可自团队 Remote 规则仓 `doc/核心四原则.mdc` 对齐或向维护者索取」；或留占位让用户粘贴团队标准版。
+
+完成后提醒：已在 Cursor 中 **Import** 本 Rules 仓库的，宪法与四原则细则在 **`.cursor/rules/imported/Rules/`**；日常协作仍建议根目录保留 **`doc/核心四原则.md`** 与 **`wiki/`** 同步维护。

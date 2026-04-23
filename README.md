@@ -8,6 +8,10 @@
 |------|------|
 | `constitution.mdc` | 总则（`alwaysApply: true`），细则用 `@` 引用同目录下文档 |
 | `doc/核心四原则.mdc` | 四原则展开条文（`alwaysApply: false`，由总则引用） |
+| `wiki-memory.mdc` | 记忆唤醒：有 `wiki/` 时先读索引、按规范增量写入 |
+| `project-wiki-bootstrap.mdc` | 新项目：尚无 `wiki/index.md` 且用户同意时，创建 `wiki/` 与可选 `doc/` 骨架（智能触发） |
+
+导入后，在业务项目里说 **「初始化 wiki / 按团队 wiki 脚手架」**，Agent 会按 **`project-wiki-bootstrap`** 创建文档；日常协作由 **`wiki-memory`** 驱动读写 **`wiki/`**。
 
 ## 在 Cursor 里使用
 
